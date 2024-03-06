@@ -89,9 +89,69 @@ function shuffleQuestions(array) {
         d: "Para determinar a eficiência do software em condições extremas"
       },
       correctAnswer: "b"
+    },
+    {
+      question: "Qual é a abordagem usada para testar a funcionalidade de um sistema sem conhecimento interno da lógica ou estrutura do código-fonte?",
+      answers: {
+        a: "Teste de caixa branca",
+        b: "Teste de unidade",
+        c: "Teste de caixa preta",
+        d: "Teste de integração"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "O que é um teste de carga em engenharia de software?",
+      answers: {
+        a: "Testar a robustez de um software",
+        b: "Testar a capacidade de um sistema lidar com uma carga máxima esperada",
+        c: "Testar o software em diferentes condições de ambiente",
+        d: "Testar a funcionalidade de um software em condições extremas"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "O que são casos de teste de fronteira em teste de software?",
+      answers: {
+        a: "Casos de teste que testam a funcionalidade principal do software",
+        b: "Casos de teste que testam as fronteiras entre diferentes módulos do software",
+        c: "Casos de teste que testam as fronteiras entre diferentes classes de equivalência",
+        d: "Casos de teste que testam os limites extremos dos dados de entrada"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "Em um diagrama de fluxo de dados, o que representa uma entidade externa?",
+      answers: {
+        a: "Um processo no sistema",
+        b: "Um armazenamento de dados",
+        c: "Uma fonte ou destino de dados fora do sistema",
+        d: "Uma interface de usuário"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Qual é a principal finalidade da técnica de particionamento em classes de equivalência em teste de software?",
+      answers: {
+        a: "Identificar todos os bugs no software",
+        b: "Reduzir a quantidade de testes necessários",
+        c: "Testar todas as funções do software",
+        d: "Encontrar os requisitos não funcionais do software"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "O que é um diagrama de atividades em UML?",
+      answers: {
+        a: "Um diagrama que mostra as interações entre objetos em um sistema",
+        b: "Um diagrama que mostra a estrutura estática de um sistema",
+        c: "Um diagrama que mostra o fluxo de controle entre atividades em um processo",
+        d: "Um diagrama que mostra a estrutura de classes em um sistema"
+      },
+      correctAnswer: "c"
     }
-    // Adicione mais perguntas aqui
   ];
+  
   
   // Embaralhar as perguntas antes de carregar
   shuffleQuestions(questions);
